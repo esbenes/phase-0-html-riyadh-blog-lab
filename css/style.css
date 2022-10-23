@@ -6,11 +6,11 @@ html, body {
 }
 
 body {
-  background: url(../images/backgrounds/architecture.jpg) center no-repeat;
+  background: blue;
   background-size: cover;
   background-attachment: fixed;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 100%;
+  font-family: "Helvatica";
+  font-size: 90%;
 }
 
 .wrapper {
@@ -21,27 +21,27 @@ body {
 
 #content {
   padding: 20px;
-  background: rgba(255,255,255,.85);
+  background-image: linear-gradient(60deg, #070ff4, #f90a0a);
 }
 
 h1, h2 {
   font-family: 'Gabriela', serif;
-  color: #fff;
+  color: green;
 }
 
 h1 {
-  font-size: 3.5em;
+  font-size: 4.5em;
   margin-bottom: 0;
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 2.5em;
   margin-top: .5em;
 }
 
 h3 {
   font-family: 'Gabriela', serif;
-  font-size: 1.5em;
+  font-size: 3.5em;
   margin-top: .5em;
 }
 
@@ -52,7 +52,7 @@ img {
 }
 
 p {
-  font-size: 1em;
+  font-size: 2em;
 }
 
 a {
@@ -72,15 +72,15 @@ a:hover {
 
 @media only screen and (max-width: 784px) {
   body {
-    font-size: 120%;
+    font-size: 130%;
   }
   h1 {
-    font-size: 2.5em;
+    font-size: 2.6em;
   }
   h2 {
-    font-size: 1em;
+    font-size: 1.5em;
   }
   .wrapper {
     width: 95%;
   }
-}
+} 
